@@ -7,7 +7,7 @@ Workflows padronizados do Claude Code para o time de desenvolvimento do Grupo Ge
 ### macOS / Linux
 
 ```bash
-git clone <repo-url> ~/gg-plugin
+git clone https://github.com/portellall/plugin-gg ~/gg-plugin
 cd ~/gg-plugin
 bash install.sh
 ```
@@ -42,7 +42,7 @@ O `install.sh` é um script Bash — é necessário um ambiente Unix. Há duas o
    ```
 4. Clone e instale o plugin:
    ```bash
-   git clone <repo-url> ~/gg-plugin
+   git clone https://github.com/portellall/plugin-gg ~/gg-plugin
    cd ~/gg-plugin
    bash install.sh
    ```
@@ -58,7 +58,7 @@ O `install.sh` é um script Bash — é necessário um ambiente Unix. Há duas o
    ```
 3. Abra o Git Bash e instale o plugin:
    ```bash
-   git clone <repo-url> ~/gg-plugin
+   git clone https://github.com/portellall/plugin-gg ~/gg-plugin
    cd ~/gg-plugin
    bash install.sh
    ```
