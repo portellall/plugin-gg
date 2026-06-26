@@ -1,0 +1,20 @@
+{
+    "name": "plugin-grupo-gestao",
+    "namespace": "gg",
+    "description": "Pacote de skills, comandos e hooks para facilitar e automatizar os workflows de desenvolvimento do Grupo Gestão",
+    "version": "2.0.0",
+    "author": "COPS 1.2026",
+    "tags": ["typescript", "react", "nextjs", "nodejs"],
+    "install": {
+        "commands": "commands/",
+        "skills": "skills/",
+        "hooks": "hooks/hooks.json"
+    },
+    "commands": [
+        { "name": "setup", "description": "Create a new project with GG standards — guided end-to-end for non-technical users" },
+        { "name": "spec", "description": "Spec-driven development workflow: spec → implement → test" },
+        { "name": "review", "description": "Code review against GG standards" },
+        { "name": "test", "description": "Run tests, analyze failures, and fix them" },
+        { "name": "ship", "description": "Conventional commit + optional PR with GG template" }
+    ]
+}
